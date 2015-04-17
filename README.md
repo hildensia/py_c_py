@@ -1,5 +1,5 @@
 # py_c_py
-A cython wrapper from python to C++ to python again
+A cython wrapper from python to C++ to python again. This is only an example how to achieve things. Not a library. 
 
 
 ## Setup
@@ -8,7 +8,7 @@ First build the cpp lib:
     $ cd clib
     $ make
 
-Then build the C extension with cython:
+Then build the C extension with cython (maybe you have to change some flags to correct include paths in `setup.py`...):
 
     $ python setup.py build_ext -i
     
