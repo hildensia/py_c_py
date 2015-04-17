@@ -1,4 +1,4 @@
-# py_c-_py
+# py_c_py
 A cython wrapper from python to C++ to python again
 
 
