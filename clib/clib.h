@@ -12,6 +12,7 @@ std::vector<int> clib_vector_function(std::vector<double> arr);
 void clib_callback_function(std::function<arr(arr)> func);
 
 // this is what we add for python conveniece: /////////////////////////////////
-void clib_callback_function_wrapper(void* func, arr (*eval) (void*, arr));
+void clib_callback_function_wrapper(void* python_function, 
+                                    std::function<arr(void*, arr)> eval);
 
 #endif
